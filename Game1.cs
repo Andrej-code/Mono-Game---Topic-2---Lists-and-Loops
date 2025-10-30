@@ -159,6 +159,11 @@ namespace Mono_Game___Topic_2___Lists_and_Loops
                 _spriteBatch.Draw(spaceBackgroundTextrue, window, Color.White);
 
 
+                //foreach(Rectangle planet in planetRect)
+                //{
+                //    _spriteBatch.Draw(planetTexture[0], planet, Color.White);
+                //}
+
                 for (int i = 0; i < planetRect.Count; i++)
                 {
 
